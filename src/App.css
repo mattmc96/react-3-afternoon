@@ -1,16 +1,14 @@
-.App {
+..App {
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #222222;
 }
 
 .App-logo {
   height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
 }
 
 .App-header {
@@ -20,19 +18,114 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+
   color: white;
 }
 
 .App-link {
-  color: #61dafb;
+  color: #09d3ac;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.bottomBox {
+  width: 40%;
+  background-color: #222222;
+  padding: 40px;
+  box-sizing: border-box;
+}
+
+.containerBox {
+  background-color: #ebebeb;
+  padding: 10px 10px 40px 40px;
+}
+
+.header {
+  display: flex;
+  margin: 0 0 0 0;
+  font-size: 20px;
+  font-weight: 800;
+  height: 5vh;
+}
+
+nav {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-weight: bold;
+}
+
+h2 {
+  margin: 0;
+}
+
+ol {
+  margin: 0;
+  padding: 0 0 0 60px;
+}
+
+header {
+  width: 40%;
+  background-color: #34a5da;
+  text-align: left;
+}
+
+h3 {
+  color: #ebebeb;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.midButtonGroup {
+  width: 35%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  row-gap: 40px;
+}
+
+.btn-2 {
+  margin: 20px 0px;
+  color: #ebebeb;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 15px;
+  background-color: #34a5da;
+  font-weight: bold;
+  box-sizing: border-box;
+}
+
+.btn-3 {
+  background-color: #222222;
+  color: #ebebeb;
+  border: none;
+  font-weight: 800;
+  font-size: 16px;
+}
+
+.index {
+  text-align: right;
+  font-size: 24px;
+  margin: 0;
+  font-weight: bolder;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+  justify-content: center;
+  text-align: left;
+}
+
+.cardName {
+  text-decoration: underline #34a5da;
+}
+
+.newEditButtons {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
 }
